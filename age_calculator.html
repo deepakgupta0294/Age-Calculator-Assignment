@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Age Calculator</title>
+    <meta charset="UTF-8" />
+    <style>
+     body{
+       font-family: sans-serif; 
+       background-color: blueviolet;
+       text-align: center;
+       padding: 10px;
+      
+    }
+     body h1{
+        color: rgb(172, 240, 216);
+
+
+     }  
+      
+    </style>
+  </head>
+
+  <body>
+    <h1><u>Age Calculator</u></h1>
+    <div id="form">
+      <p id="error" style="color: rgb(233, 43, 43);"></p>
+      <label for="day">Date of Birth:</label><br /><br />
+      <input id="day" type="number" placeholder="Date" /><br />
+      <input id="month" type="text" placeholder="Month" /><br />
+      <input id="year" type="number" placeholder="Year" /><br /><br />
+      <button id="submit">Calculate</button><hr>
+    </div>
+    <div>
+      Your age is:
+      <span id="result"></span>
+    </div>
+    <p id="given-date"></p>
+    <p id="today-date"></p>
+    <div class="hello"></div>
+    <div class="world"></div>
+    <script src="age_calculator_script.js"></script>
+  </body>
+</html>
